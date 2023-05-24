@@ -1,0 +1,26 @@
+.container-table{
+    margin: 50px auto;
+    width: 950px;
+}
+table{
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    border-radius: 1em;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+}
+th,td{
+    padding: 20px;
+}
+thead{
+    background-color: #33ff00;
+    border-radius: solid 5px #ffc609;
+    color: rgb(0, 0, 0);
+}
+tr:nth-child(even){
+    background-color: #e3fdf9;
+}
+tr:hover td{
+    background-color: #09ff00;
+    color: white;
+}
